@@ -1,14 +1,14 @@
 object nestedfunction_example {
-  def  main(arg: Array[String]){
+  def main(arg: Array[String]){
     
-    def square(x: Double) : Double = {
+    def square(x:  Double)  :  Double = {
       return x*x
     }
     
-    def sumsquare(x: Double, y: Double) : Double = {
+    def sumsqrz(x:  Double,  y:  Double) :  Double = {
       return square(x) + square(y)
     }
-    
-    println("The sum of squares is: " + sumsquare(45,90))
+       
+    println("The sum of the squares is: " + sumsqrz(45,394))
   }
 }
